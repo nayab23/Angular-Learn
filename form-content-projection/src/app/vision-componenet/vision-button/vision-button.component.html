@@ -1,0 +1,13 @@
+<button class="button" [type]="type" [class]="themeClass" 
+  [class.button--large]="size === 'large'"  
+  [class.button--medium]="size === 'medium'" 
+  [class.button--small]="size === 'small'" 
+  [class.button--link]="appearance === 'link'"
+  [class.button--outline]="appearance === 'outline'"
+  [class.button--outline-contrast]="appearance === 'outline-contrast'"
+  [class.button--inline]="inline" [disabled]="disabled">
+   <span class="button__content">
+    <ng-content></ng-content>
+  </span>
+  
+</button>

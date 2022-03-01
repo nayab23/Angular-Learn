@@ -1,0 +1,1 @@
+export type ThemeColors = 'primary' | 'accent' | 'action' | 'accept' | 'alert';

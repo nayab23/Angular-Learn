@@ -1,0 +1,140 @@
+<div class="p-5">
+  <!-- card start -->
+  <button class="btn btn-light-primary w-130px mr-3 font-weight-bold" (click)="changeTheme('default')">green</button>
+  <button class="btn btn-light-warning w-130px mr-3 font-weight-bold" (click)="changeTheme('orange')">Orange</button>
+  <button class="btn btn-light-info w-130px mr-3 font-weight-bold" (click)="changeTheme('purple')">purple</button>
+  <h1 class="my-5">General Form</h1>
+  <div class="card card-custom gutter-b mb-4">
+    <div class="card-header min-h-50px bg-primary" id="headingOne3">
+      <div class="card-title" data-toggle="collapse" data-target="#GeneralForm">
+        General
+      </div>
+    </div>
+    <div id="GeneralForm" class="collapse show" data-parent="#CreateClientFormsList">
+      <div class="card-body">
+        <form class="form row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Facility Name</label>
+              <input type="text" class="form-control" placeholder="Facility Name" />
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Phone</label>
+              <input type="text" class="form-control" placeholder="Phone" />
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Fax No</label>
+              <input type="text" class="form-control" placeholder="Fax No" />
+            </div>
+          </div>
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+            <div class="form-group">
+              <label>Address 1</label>
+              <input type="text" class="form-control" placeholder="Address 1" />
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Zip Code</label>
+              <input type="text" class="form-control" placeholder="Zip Code" />
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label for="City">City</label>
+              <select class="form-control select2" id="kt_select2_10" name="param">
+                <option value="">--- Select City ---
+                </option>
+                <option value="170bbef3-62ef-4d17-bdd5-61d3b1fe0f26">
+                  Adona</option>
+                <option value="c02d8d2c-3af2-4e63-a15d-d2777d55da99">
+                  Alexander</option>
+                <option selected="selected" value="915405ff-0d73-4f54-801b-f0e66548f37d">
+                  Alicia</option>
+                <option value="c7b97d39-1053-4462-b789-0ae26b36cd1c">
+                  Allport</option>
+                <option value="5f68af8b-c934-4678-9a46-61cfc623d7dc">
+                  Alma</option>
+              </select>
+              <span class="text-danger field-validation-valid" data-valmsg-for="City" data-valmsg-replace="true"></span>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label for="State">State</label>
+              <select class="form-control select2" id="kt_select2_12" name="param">
+                <option value="">--- Select State ---
+                </option>
+                <option value="ea7d6d32-5c27-4afc-a3cb-f6d0bc7d032c">
+                  Alabama</option>
+                <option value="092d2d1a-860e-463b-a07a-c806dfd63a0f">
+                  Alaska</option>
+                <option value="20fd54ce-c872-4763-811a-1647741c82e7">
+                  Arizona</option>
+                <option selected="selected" value="13ca3586-ad68-4341-b1fe-a5f4f01ef4e6">
+                  Arkansas</option>
+                <option value="fc1bb3a8-f92c-4e80-8043-a4f8e66f8fe1">
+                  California</option>
+                <option value="f7e3183b-80b7-4d3c-9898-2473065ce8a8">
+                  Colorado</option>
+              </select>
+              <span class="text-danger field-validation-valid" data-valmsg-for="State" data-valmsg-replace="true"></span>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Facility Email</label>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Facility Email" />
+                <div class="input-group-append">
+                  <span class="input-group-text">@</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Sender Email</label>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Sender Email" />
+                <div class="input-group-append">
+                  <span class="input-group-text">@</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+            <div class="form-group">
+              <label>Ordering Method</label>
+              <div class="checkbox-inline">
+                <label class="checkbox">
+                  <input type="radio" name="OrderingMethod" />
+                  <span></span>
+                  Electronic
+                </label>
+                <label class="checkbox">
+                  <input type="radio" name="OrderingMethod" />
+                  <span></span>
+                  Paper
+                </label>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- card end -->
+  <div class="btn-group dropup">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Dropup
+    </button>
+    <div class="dropdown-menu">
+        ...
+    </div>
+</div>
+  </div>
