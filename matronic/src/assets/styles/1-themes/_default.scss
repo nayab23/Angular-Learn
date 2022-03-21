@@ -1,0 +1,67 @@
+$palette-colors: (
+  primary: #144c90,
+  primary-contrast: cssvar(light-text-color),
+  action: #25aae1,
+  action-contrast: cssvar(light-text-color),
+  accent: #5e5f6c,
+  accent-contrast: cssvar(light-text-color),
+  alert: #d70000,
+  alert-contrast: cssvar(light-text-color),
+  accept: #1b9003,
+  accept-contrast: cssvar(light-text-color),
+);
+
+$other: (
+  background-color: #d1d2da,
+  background-dark-color: #b6b8C1,
+  background-ultra-dark-color: #666666,
+  background-light-color: #e4e5ea,
+  shadow-color: #adaeb4,
+  panel-color: #fff,
+  border-color: #97989c,
+  gray-backround-color:#868894,
+  light-border-color: rgb(195, 195, 195, 0.6),
+  footer-color: #ebecf0,
+  light-hover-color: #daf1fa,
+  // Text
+  light-text-color: #fff,
+  text-color: #1d1d1d,
+  grey-text-color: #666,
+  footer-text-color: #444,
+  social-background-color: #d6d7dd,
+  light-grey-text-color: #dedede,
+  dim-grey-text-color: #e4e5ea21,
+  font-family: "'Roboto', sans-serif",
+  base-font-size: 0.8125rem,
+  mid-grey-text-color: #424650,
+  hyperlink-color: #1e88e5,
+  option-hover-color:#49c7fd,
+  // Layout
+  page-width: 1250px,
+  alert-warning-color: #f06421,
+  female-gender-color: #f14996,
+  male-gender-color: #1e90ff,
+  // SeatMap
+  front-seat-color: #E5C929,
+  selected-seat-color: #1B9003,
+  yellow-background: #fcf7db,
+  yellow-border: #b8a121,
+  assignment-background: #b2e7fb,
+  assigned-seat-background: #e0fae0,
+  // Border
+  popup-model-border-color: #ccc,
+  itinerary-header-border-color:#ADB3C0,
+  layout-border-color:#999,
+  in-progress: #e36e05,
+  // ancillary & special service icons color
+  type-icon-color: #686974
+
+  // Override anything from the palette if needed e.g.
+  // primary-light-disabled-color: #000,
+);
+
+$default: map-merge(make-palette-colors($palette-colors), $other);
+
+:root {
+  @include cssvars($default);
+}

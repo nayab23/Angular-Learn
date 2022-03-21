@@ -1,0 +1,256 @@
+//
+// Theme Base
+//
+
+
+////////////////////////////////////////////////////////////////
+////////////////// BASE THEME STRUCTURE START //////////////////
+////////////////////////////////////////////////////////////////
+
+
+
+/////// SOLID COLORS
+$primary : #f64e60;
+$light-primary : #ffe2e5;
+$success: #1bc5bd;
+$success-20: #69A54B;
+$light-success: #c9f7f5;
+$warning : #ffa800;
+$light-warning : #fff4de;
+$info : #8950fc;
+$light-info: #eee5ff;
+$blue: #6992FE;
+$blue-20: #3699FF;
+$light-blue: #DFE6FD;
+$white : #ffffff;
+$light-white : #FBFBFC;
+$light : #f3f6f9;
+$light-50 : #f3f5f9;
+$light-dark : #7e8299;
+$dark: #181c32;
+$black: #1a1a27;
+$black-2: #1E1E2D;
+$light-dark: #3f4254;
+$gray: #4c4e6f;
+$gray-10: #494b74;
+$gray-20: #a2a3b7;
+$gray-30: #5c5e81;
+$muted: #b5b5c3;
+
+/////// RGBA COLOR 
+$transparent-white : rgba(255,255,255,.1);
+
+///// MODAL BACKDROP COLOR
+$blackdrop:rgba(0,0,0,.4);
+
+///// BORDER RADIOUS 
+$radious: 0.85rem;
+$thick-radious: 0.85rem;
+$thin-radious: 4px;
+$sharp-radious: 3.85rem;
+
+///// BOX SHADOW
+$box-shadow-1: 0px 0px 40px 0px rgba(82, 63, 105, 0.1);
+$box-shadow-2: 0px 0px 50px 0px rgba(82, 63, 105, 0.15);
+$box-shadow-3: 0px 10px 30px 0px rgba(82, 63, 105, 0.08);
+$box-shadow-4: 0px 1px 9px -3px rgba(0, 0, 0, 0.25);
+
+
+
+
+
+////////////////////////////////////////////////////////////////
+////////////////// BASE THEME STRUCTURE END ////////////////////
+////////////////////////////////////////////////////////////////
+.bg-primary{
+    background: $primary;
+}
+
+.login-bg{
+    height:100vh;
+    // width:100%;
+    img{
+        margin-right: 3rem;
+    }
+}
+.login{
+    .logo{
+        height: 54px !important;
+    }
+    position: relative;
+    width: 60%;
+    .brake{
+        margin-top: 30px;
+        .brake-text{    
+            position: absolute;
+            top: -10px;
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    .img{
+        height: 20px;
+        margin-right: 10px;
+    margin-top: -10px;
+    }
+}
+
+
+// form class============================
+.input-wrapper {
+    margin-top: 20px;
+
+    .input-text {
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+}
+
+// palceholder
+::placeholder {
+    color: $gray-20;
+}
+
+// input
+.input {
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 45px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+    color: $black;
+    padding: 7px 16px;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+// password input 
+.password-input{
+  position: relative;
+  img{
+    position: absolute;
+    right: 14px;
+    height: 15px;
+    top: 16px;
+    cursor: pointer;
+  }
+  #hide{
+    display: none;
+  }
+}
+// input buttons
+
+.input-submit {
+    background: none;
+    border-width: 1px;
+    border-style: solid;
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    padding: 7px 16px;
+    margin-top: 20px;
+}
+
+// checkbox 
+@mixin checkbox{
+
+  .styled-checkbox {
+    position: absolute; // take it out of document flow
+    opacity: 0; // hide it
+  
+    & + label {
+      position: relative;
+      cursor: pointer;
+      padding: 0;
+    }
+  
+    // Box.
+    & + label:before {
+      content: '';
+      margin-right: 10px;
+      display: inline-block;
+      vertical-align: text-top;
+      width: 20px;
+      height: 20px;
+      background: $white;
+      border-radius: $thin-radious;
+      text-decoration: none;
+    }
+  
+  
+    
+    // Disabled state label.
+    &:disabled + label {
+      color: $muted;
+      cursor: auto;
+    }
+  
+    // Disabled box.
+    &:disabled + label:before {
+      box-shadow: none;
+      background: $muted;
+    }
+  
+    // Checkmark. Could be replaced with an image
+    &:checked + label:after {
+      content: '';
+      position: absolute;
+      left: 5px;
+      top: 9px;
+      background: $white;
+      width: 2px;
+      height: 2px;
+      box-shadow: 
+        2px 0 0 $white,
+        4px 0 0 $white,
+        4px -2px 0 $white,
+        4px -4px 0 $white,
+        4px -6px 0 $white,
+        4px -8px 0 $white;
+      transform: rotate(45deg);
+    }
+  }
+}
+.checkbox-fill{
+  @include checkbox;
+  .styled-checkbox {
+  & + label:before {
+    border:2px solid $primary;
+  }
+    // Box hover
+    &:hover + label:before {
+      background: $primary;
+    }
+  
+    // Box checked
+    &:checked + label:before {
+      background: $primary;
+    }
+  }
+}
+
+// checkbox 
+.checkbox-fill-success{
+  @include checkbox;
+  .styled-checkbox {
+  & + label:before {
+    border:2px solid $success-20;
+  }
+    // Box hover
+    &:hover + label:before {
+      background: $success-20;
+    }
+  
+    // Box checked
+    &:checked + label:before {
+      background: $success-20;
+    }
+  }
+}
+  
+
+
+ 

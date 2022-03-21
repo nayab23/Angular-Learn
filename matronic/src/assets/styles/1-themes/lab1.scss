@@ -1,0 +1,23 @@
+// This should specify override values for variables defined in default.scss
+// to their value specific for the lab1 system.
+
+$palette-colors: (
+  primary: #144c90,
+  primary-contrast: cssvar(light-text-color),
+  action: #25aae1,
+  action-contrast: cssvar(light-text-color),
+  accent: #5e5f6c,
+  accent-contrast: cssvar(light-text-color),
+  alert: #ff0000,
+  alert-contrast: cssvar(light-text-color),
+  accept: #1b9003,
+  accept-contrast: cssvar(light-text-color),
+);
+
+$other: ();
+
+$lab1: map-merge(make-palette-colors($palette-colors), $other);
+
+.lab1 {
+  @include cssvars($lab1);
+}
