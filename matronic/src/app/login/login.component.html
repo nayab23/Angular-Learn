@@ -1,0 +1,85 @@
+<div id="kt_body"
+  class="quick-panel-right demo-panel-right offcanvas-right header-fixed header-mobile-fixed subheader-enabled aside-enabled aside-static"
+  cz-shortcut-listen="true">
+  <div class="d-flex flex-column flex-root">
+    <div class="login login-4 wizard d-flex flex-column flex-lg-row flex-column-fluid">
+      <div
+        class="login-container order-2 order-lg-1 d-flex flex-center flex-row-fluid px-7 pt-lg-0 pb-lg-0 pt-4 pb-6 bg-white  position-relative">
+        <div class="login-content d-flex flex-column pt-lg-0 pt-5">
+          <a href="/" class="login-logo text-center mb-15"><img src="/logo.png" class="max-h-60px" alt="TrueMedIT"></a>
+          <div class="login-form">
+            <form id="form-login" novalidate="novalidate">
+              <div class="pb-5">
+                <h3 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Sign In</h3>
+              </div>
+              <div class="form-group">
+                <label class="font-size-h6 font-weight-bolder text-dark required" for="Username">Username</label>
+                <input type="text" class="form-control form-control-solid h-auto py-5 px-6 rounded-lg valid"
+                  autocomplete="off" required="" data-val="true" data-val-required="Please enter username" id="Username"
+                  name="Username" value="" aria-describedby="Username-error" aria-invalid="false">
+                <span class="text-danger field-validation-valid" data-valmsg-for="Username"
+                  data-valmsg-replace="true"></span>
+              </div>
+              <div class="form-group">
+                <label class="font-size-h6 font-weight-bolder text-dark required" for="Password">Password</label>
+                <div class="input-group">
+                  <input type="password"
+                    class="form-control form-control-solid h-auto py-5 px-6 rounded-lg password valid"
+                    style="border-top-right-radius: 0 !important; border-bottom-right-radius: 0 !important;"
+                    autocomplete="off" required="" data-val="true" data-val-required="Please enter password"
+                    id="Password" name="Password" aria-describedby="Password-error" aria-invalid="false">
+                  <div class="input-group-append">
+                    <span class="show-password input-group-text border-0 cursor-pointer"
+                      style="border-radius: .85rem;border-top-left-radius: 0;border-bottom-left-radius: 0;">
+                      <i class="text-danger fa fa-eye"></i>
+                    </span>
+                    <span class="hide-password input-group-text border-0 cursor-pointer" style="display:none">
+                      <i class="text-danger fa fa-eye-slash"></i>
+                    </span>
+                  </div>
+                </div>
+                <span class="text-danger field-validation-valid" data-valmsg-for="Password"
+                  data-valmsg-replace="true"></span>
+              </div>
+
+              <div class="form-group d-flex flex-wrap justify-content-between align-items-center">
+                <div class="checkbox-inline">
+                  <label class="checkbox m-0 text-hover-primary">
+                    <input type="checkbox" data-val="true" data-val-required="The RememberMe field is required."
+                      id="RememberMe" name="RememberMe" value="true">
+                    <span style="border-color: #f64e60"></span>Remember me
+                  </label>
+                </div>
+                <a href="/ForgotPassword" class="text-primary font-size-h6 font-weight-bolder">Forget Password?</a>
+              </div>
+
+              <div class="alert alert-danger mb-lg-0 mb-5" role="alert" id="ErrorMessage" style="display:none">
+                <span class="msg"></span>
+                <button type="button" class="close"><span aria-hidden="true">×</span></button>
+              </div>
+              <div class="pb-lg-0 pb-5">
+                <button type="submit" class="btn btn-primary font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3">Sign
+                  In</button>
+                <input type="hidden" value="" id="ReturnUrl" name="ReturnUrl">
+                <input type="hidden" id="ClientTimeZone" name="ClientTimeZone" value="5">
+              </div>
+              <input name="RememberMe" type="hidden" value="false">
+            </form>
+          </div>
+
+        </div>
+      </div>
+      <div class="login-aside order-1 order-lg-2 bgi-no-repeat bgi-position-x-right d-lg-block d-none">
+        <div class="login-conteiner bgi-no-repeat bgi-position-x-right bgi-position-y-bottom"
+          style="background-image: url(/assets/media/svg/illustrations/login-visual-4.svg);">
+          <h3
+            class="pt-lg-40 pl-lg-20 pb-lg-0 pl-10 py-20 m-0 d-flex justify-content-lg-start font-weight-boldest display3 text-white">
+            The smartest <br>way to
+            <br>AUTOMATE<br>your lab
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+</div>

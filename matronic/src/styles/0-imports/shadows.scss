@@ -1,0 +1,10 @@
+// ************************
+// Shadows
+// ************************
+@mixin shadow {
+  // box-shadow: 0.1em 0.1em 0.4em cssvar(shadow-color);
+}
+
+@mixin text-shadow {
+  // text-shadow: 0.1em 0.1em 0.05em cssvar(shadow-color);
+}

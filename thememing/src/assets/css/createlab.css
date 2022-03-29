@@ -1,9 +1,9 @@
 .LabExtraFeature .switch.switch-outline.switch-primary input:empty~span:after {
-    background-color: var(--gray-40) !important;
+    background-color: var(--gray_40) !important;
 }
 
 .LabExtraFeature .switch.switch-outline.switch-primary input:empty~span:before {
-    border-color: var(--gray-40) !important;
+    border-color: var(--gray_40) !important;
 }
 
 .LabExtraFeature .switch.switch-outline.switch-primary input:checked~span:after {
@@ -46,7 +46,7 @@
 }
 
 #dvRightsList .navi-item {
-    border-bottom: 1px solid var(--dark-white);
+    border-bottom: 1px solid var(--dark_white);
 }
 
 .image-input .image-input-wrapper {

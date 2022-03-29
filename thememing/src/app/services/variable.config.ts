@@ -738,6 +738,9 @@ export const VARIABLE = {
   },
   purple: {
     primary: '#8950FC',
+    light_primary: '#eee5ff',
+    dark_primary: '#702afb',
+
     secondary: '#e4e6ef',
     success: '#69A54B',
     info: '#8950FC',

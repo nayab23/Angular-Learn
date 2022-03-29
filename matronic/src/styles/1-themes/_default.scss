@@ -1,0 +1,695 @@
+
+$body_bg: #f5f5f5;
+
+  $primary: #69A54B;
+  $light_primary: #D2E4C9;
+  $dark_primary: #5f9643;
+
+  $secondary: #e4e6ef;
+  $light_secondary: #d7dae7;
+  $dark_secondary: #ccd0e1;
+  $dark_secondary_10: #c4c8dc;
+  $dark_secondary_20: #bcc1d7;
+  $secondary_10: #ecf1f6;
+  $secondary_20: #f3f3f3;
+  $secondary_30: #f0f3f7;
+
+  $success: #69A54B;
+  $light_success: #D2E4C9;
+  $dark_success: #5f9643;
+  $dark_success_10: #59a036;
+  $dark_success_20: #4f932d;
+  $dark_success_30: #95d870;
+  $dark_success_40: #A9E08D;
+
+  $info: #8950FC;
+  $light_info: #eee5ff;
+  $dark_info: #702afb;
+  $dark_info_10: #671efb;
+  $dark_info_20: #5f11fb;
+  $dark_info_30: #7337ee;
+
+  $warning: #FFA800;
+  $light_warning: #fff4de;
+  $dark_warning: #cc8600;
+  $dark_warning_10: #d98f00;
+  $dark_warning_20: #bf7e00;
+  $dark_warning_30: #ee9d01;
+  $dark_warning_40: #ffcb66;
+
+  $danger: #f64e60;
+  $light_danger: #ffe2e5;
+  $light_danger_10: #fbafb7;
+  $light_danger_20: #cc4b37;
+  $dark_danger: #EE2D41;
+  $dark_danger_10: #ec0c24;
+  $dark_danger_50: #a30819;
+  $dark_danger_60: #8b0000;  /* Extra */
+
+  $white: #ffffff;
+  $light_white: #e8eff7;
+  $dark_white: #ececec;
+  $dark_white_10: #e3e3e3;
+  $dark_white_20: #dfdfdf;
+  $dark_white_30: #d9d9d9;
+  $dark_white_40: #f7f7f7;
+
+  $light: #F3F6F9;
+  $dark_light: #d1dde8;
+  $dark_light_10: #dae3ec;
+  $dark_light_20: #c9d6e4;
+  $dark_light_30: #c0d0e0;
+  $dark_light_40: #e9eef4;
+  $dark_light_50: #e7f4f9;
+  $dark_light_60: #beebff;
+  $dark_light_70: #a8e4ff;
+
+  $dark: #181C32;
+  $dark_10: #131628;
+  $dark_20: #0c0e18;
+  $dark_30: #070910;
+  $dark_40: #030407;
+  $dark_50: #5e6278;
+  $dark_60: #4a5699;
+  $dark_70: #4a5699;
+
+  $gray: #7E8299;
+  $gray_dark: #3F4254;
+  $black: #000000;
+  $light_black: #333;
+  $light_black_10: #858585;
+  $light_black_20: #6c6c6c;
+
+  $light_yello_10: #fcf8e3;
+  $light_yello_20: #fafad2;
+  $blue: #0a6aa1;
+  $silver: silver;
+  $green: green;
+
+  $white_10: #f2f2f2;
+  $gray_10: #EBEDF3;
+  $gray_20: #D1D3E0;
+  $gray_30: #b5b5c3;
+  $gray_40: #8e8e95;
+  $gray_50: #d2c9c5;
+  $gray_60: #d3d3d3;
+  $gray_70: #d1d2d6;
+  $gray_80: #999;
+  $gray_90: gray;
+  $gray_100: #aaa;
+
+  /* // Social Icons Color */
+  $facebook: #3b5998;
+  $facebook_10: #30497c;
+  $google: #dd4b39;
+  $google_10: #cd3623;
+  $twitter: #1da1f2;
+  $twitter_10: #0d8ddc;
+  $instagram: #e1306c;
+  $instagram_10: #cd1e59;
+  $youtube_10: red;
+  $youtube: #d90000;
+  $linkedin: #0077b5;
+  $linkedin_10: #005e8f;/* Extra */
+  $skype: #00aff0;
+  $skype_10: #0093ca;
+
+  /* // Form Primary Color */
+  $form_primary_10: #A9E08D;
+
+  /* // Spiiner Warning Color */
+  $spinner_light_warning: #ffdc99;
+  $spinner_dark_warning: #ffcb66;
+
+  /* // ///////////////////// Alert COLORS /////////////// */
+
+  /* // alert Primary Color */
+  $alert_light_primary_10: #D2E4C9;
+  $alert_dark_primary_10: #A9E08D;
+  $alert_dark_primary_20: #4f932d;
+
+  /* // alert Warning Color */
+  $alert_light_warning_10: #fec;
+  $alert_dark_warning_10: #855700;
+  $alert_dark_warning_20: #523600;
+
+  /* // alert Secondary Color */
+  $alert_light_secondary_10: #fafafc;
+  $alert_dark_secondary_10: #77787c;
+  $alert_dark_secondary_20: #5e5f62;
+
+  /* // alert Success Color */
+  $alert_light_success_10: #D2E4C9;
+  $alert_dark_success_10: #A9E08D;
+  $alert_dark_succes_20: #4f932d;
+
+  /* // alert info Color */
+  $alert_light_info_10: #e7dcfe;
+  $alert_dark_info_10: #472a83;
+  $alert-dark-info-20: #321e5c;
+
+  /* // alert Light Color */
+  $alert_light_light_10: #fdfdfe;
+  $alert_dark_light_10: #7e8081;
+  $alert_dark_light_20: #656667;
+
+  /* // ///////////////////// TABLE COLORS /////////////// */
+  /* // Table Primary Color */
+  $table_primary_10: #A9E08D;
+  $table_primary_20: #b4e899;
+  $table_primary_30: #95d870;
+
+  /* // Table Warning Color */
+  $table_warning_10: #ffe7b8;
+  $table_warning_20: #ffde9f;
+  $table_warning_30: #ffd27a;
+
+  /* // Table Danger Color */
+  $table_danger_10: #fccdd2;
+  $table_danger_20: #fbb5bc;
+  $table_danger_30: #faa3ac;
+
+  /* // Table Secondary Color */
+  $table_secondary_10: #f7f8fb;
+  $table_secondary_20: #f1f2f7;
+  $table_secondary_30: #64719b;
+
+  /* // Table Success Color */
+  $table_success_10: #D2E4C9;
+  $table_success_20: #95d870;
+  $table_success_30: #95d870;
+
+  /* // Table Info Color */
+  $table_info_10: #decefe;
+  $table_info_20: #cdb5fd;
+  $table_info_30: #c2a4fd;
+
+  /* // Table Light Color */
+  $table_light_10: #fcfcfd;
+  $table_light_20: #f9fafc;
+  $table_light_30: #ededf3;
+
+  /* // Table Dark Color */
+  $table_dark_10: #d4d7e6;
+  $table_dark_20: #bebfc6;
+  $table_dark_30: #b0b2ba;
+  $table_dark_40: #878994;
+  $table_dark_50: #242a4c;
+
+  /* ///// RGBA COLOR  */
+  /* // Primary */
+  $rgba_primary: rgb(169, 224, 141);
+  $rgba_primary_outline: rgb(149, 216, 112);
+  $rgba_primary_025: rgb(149, 216, 112, .025);
+  $rgba_primary_75: rgb(149, 216, 112, .75);
+  $rgba_primary_12: rgb(149, 216, 112, .12);
+  $rgba_primary_14: rgb(149, 216, 112, .14);
+  $rgba_primary_16: rgb(149, 216, 112, .16);
+  $rgba_primary_4: rgb(149, 216, 112, .4);
+  $rgba_primary_06: rgb(149, 216, 112, .06);
+  $rgba_primary_5: rgb(149, 216, 112, .5);
+  $rgba_primary_6: rgb(149, 216, 112, .6);
+  $rgba_primary_08: rgb(149, 216, 112, .08);
+  $rgba_primary_8: rgb(149, 216, 112, .8);
+
+  /* // Secondary*/
+  $rgba_secondary: rgba(197, 200, 211, .5);
+  $rgba_secondary_outline: rgba(228, 230, 239, .5);
+  $rgba_secondary_1: rgba(228, 230, 239, .1);
+  $rgba_secondary_12: rgba(228, 230, 239, .12);
+  $rgba_secondary_14: rgba(228, 230, 239, .14);
+  $rgba_secondary_16: rgba(228, 230, 239, .16);
+  $rgba_secondary_18: rgba(228, 230, 239, .18);
+  $rgba_secondary_02: rgba(228, 230, 239, .02);
+  $rgba_secondary_2: rgba(228, 230, 239, .2);
+  $rgba_secondary_22: rgba(228, 230, 239, .22);
+  $rgba_secondary_24: rgba(228, 230, 239, .24);
+  $rgba_secondary_26: rgba(228, 230, 239, .26);
+  $rgba_secondary_28: rgba(228, 230, 239, .28);
+  $rgba_secondary_3: rgba(228, 230, 239, .3);
+  $rgba_secondary_32: rgba(228, 230, 239, .32);
+  $rgba_secondary_34: rgba(228, 230, 239, .34);
+  $rgba_secondary_36: rgba(228, 230, 239, .36);
+  $rgba_secondary_38: rgba(228, 230, 239, .38);
+  $rgba_secondary_4: rgba(228, 230, 239, .4);
+  $rgba_secondary_40: rgba(235, 237, 243, .4);
+  $rgba_secondary_06: rgba(228, 230, 239, .06);
+  $rgba_secondary_6: rgba(228, 230, 239, .6);
+  $rgba_secondary_08: rgba(228, 230, 239, .08);
+  $rgba_secondary_8: rgba(228, 230, 239, .8);
+  $rgba_secondary_75: rgba(228, 230, 239, .75);
+
+  /* // Success*/
+  $rgba_success: rgba(169, 224, 141, .8);
+  $rgba_success_outline: rgba(169, 224, 141, .5);
+  $rgba_success_1: rgba(169, 224, 141, .1);
+  $rgba_success_12: rgba(169, 224, 141, .12);
+  $rgba_success_18: rgba(169, 224, 141, .18);
+  $rgba_success_22: rgba(169, 224, 141, .22);
+  $rgba_success_24: rgba(169, 224, 141, .24);
+  $rgba_success_26: rgba(169, 224, 141, .26);
+  $rgba_success_28: rgba(169, 224, 141, .28);
+  $rgba_success__02: rgba(169, 224, 141, .02);
+  $rgba_success__2: rgba(169, 224, 141, .2);
+  $rgba_success_25: rgba(169, 224, 141, .25);
+  $rgba_success_3: rgba(169, 224, 141, .3);
+  $rgba_success_32: rgba(169, 224, 141, .32);
+  $rgba_success_34: rgba(169, 224, 141, .34);
+  $rgba_success_36: rgba(169, 224, 141, .36);
+  $rgba_success_38: rgba(169, 224, 141, .38);
+  $rgba_success_04: rgba(169, 224, 141, .04);
+  $rgba_success__4: rgba(169, 224, 141, .4);
+  $rgba_success_75: rgba(169, 224, 141, .75);
+  $rgba_success_06: rgba(169, 224, 141, .06);
+  $rgba_success_6: rgba(169, 224, 141, .6);
+  $rgba_success_08: rgba(169, 224, 141, .08);
+  $rgba_success_8: rgba(169, 224, 141, .8);
+  $rgba_success_14: rgba(169, 224, 141, .14);
+  $rgba_success_16: rgba(169, 224, 141, .16);
+  $rgba_success_18: rgba(169, 224, 141, .18);
+  $rgba_success_02: rgb(169, 224, 141, .02);
+  $rgba_success_2: rgb(169, 224, 141, .2);
+  $rgba_success_04: rgb(169, 224, 141, .04);
+  $rgba_success_4: rgb(169, 224, 141, .4);
+  $rgba_success__4: rgba(169, 224, 141, .4);
+
+  /* // Info*/
+  $rgba_info: rgba(155, 106, 252, .5);
+  $rgba_info_outline: rgba(137, 80, 252, .5);
+  $rgba_info_1: rgba(137, 80, 252, .1);
+  $rgba_info_02: rgba(137, 80, 252, .02);
+  $rgba_info_2: rgba(137, 80, 252, .2);
+  $rgba_info_12: rgba(137, 80, 252, .12);
+  $rgba_info_14: rgba(137, 80, 252, .14);
+  $rgba_info_16: rgba(137, 80, 252, .16);
+  $rgba_info_18: rgba(137, 80, 252, .18);
+  $rgba_info_22: rgba(137, 80, 252, .22);
+  $rgba_info_24: rgba(137, 80, 252, .24);
+  $rgba_info_25: rgba(137, 80, 252, .25);
+  $rgba_info_26: rgba(137, 80, 252, .26);
+  $rgba_info_28: rgba(137, 80, 252, .28);
+  $rgba_info_3: rgba(137, 80, 252, .3);
+  $rgba_info_32: rgba(137, 80, 252, .32);
+  $rgba_info_34: rgba(137, 80, 252, .34);
+  $rgba_info_36: rgba(137, 80, 252, .36);
+  $rgba_info_38: rgba(137, 80, 252, .38);
+  $rgba_info_4: rgba(137, 80, 252, .4);
+  $rgba_info_04: rgba(137, 80, 252, .04);
+  $rgba_info_6: rgba(137, 80, 252, .6);
+  $rgba_info_06: rgba(137, 80, 252, .06);
+  $rgba_info_8: rgba(137, 80, 252, .8);
+  $rgba_info_08: rgba(137, 80, 252, .08);
+  $rgba_info_75: rgba(137, 80, 252, .75);
+
+  /* // Warning*/
+  $rgba_warning: rgba(220, 147, 8, .5);
+  $rgba_warning_outline: rgba(255, 168, 0, .5);
+  $rgba_warning_1: rgba(255, 168, 0, .1);
+  $rgba_warning_12: rgba(255, 168, 0, .12);
+  $rgba_warning_14: rgba(255, 168, 0, .14);
+  $rgba_warning_16: rgba(255, 168, 0, .16);
+  $rgba_warning_18: rgba(255, 168, 0, .18);
+  $rgba_warning_02: rgba(255, 168, 0, .02);
+  $rgba_warning_2: rgba(255, 168, 0, .2);
+  $rgba_warning_22: rgba(255, 168, 0, .22);
+  $rgba_warning_24: rgba(255, 168, 0, .24);
+  $rgba_warning_26: rgba(255, 168, 0, .26);
+  $rgba_warning_28: rgba(255, 168, 0, .28);
+  $rgba_warning_3: rgba(255, 168, 0, .3);
+  $rgba_warning_32: rgba(255, 168, 0, .32);
+  $rgba_warning_34: rgba(255, 168, 0, .34);
+  $rgba_warning_36: rgba(255, 168, 0, .36);
+  $rgba_warning_38: rgba(255, 168, 0, .38);
+  $rgba_warning_04: rgba(255, 168, 0, .04);
+  $rgba_warning_4: rgba(455, 168, 0, .4);
+  $rgba_warning_06: rgba(255, 168, 0, .06);
+  $rgba_warning_6: rgba(255, 168, 0, .6);
+  $rgba_warning_08: rgba(255, 168, 0, .08);
+  $rgba_warning_8: rgba(255, 168, 0, .8);
+  $rgba_warning_25: rgba(255, 168, 0, .25);
+  $rgba_warning_75: rgba(255, 168, 0, .75);
+  $rgba_warning__4: rgba(255, 244, 222, .4);
+
+  /* // Danger*/
+  $rgba_danger: rgba(247, 105, 120, .5);
+  $rgba_danger_outline: rgba(246, 78, 96, .5);
+  $rgba_danger_1: rgba(246, 78, 96, .1);
+  $rgba_danger_02: rgba(246, 78, 96, .22);
+  $rgba_danger_04: rgba(246, 78, 96, .24);
+  $rgba_danger_22: rgba(246, 78, 96, .25);
+  $rgba_danger_25: rgba(246, 78, 96, .25);
+  $rgba_danger_26: rgba(246, 78, 96, .26);
+  $rgba_danger_28: rgba(246, 78, 96, .28);
+  $rgba_danger_3: rgba(246, 78, 96, .3);
+  $rgba_danger_32: rgba(246, 78, 96, .32);
+  $rgba_danger_34: rgba(246, 78, 96, .34);
+  $rgba_danger_34: rgba(246, 78, 96, .36);
+  $rgba_danger_38: rgba(246, 78, 96, .38);
+  $rgba_danger_04: rgba(255, 226, 229, .04);
+  $rgba_danger_4: rgba(246, 78, 96, .4);
+  $rgba_danger_14: rgba(246, 78, 96, .14);
+  $rgba_danger_16: rgba(246, 78, 96, .16);
+  $rgba_danger_18: rgba(246, 78, 96, .18);
+  $rgba_danger_06: rgba(246, 78, 96, .06);
+  $rgba_danger_6: rgba(246, 78, 96, .6);
+  $rgba_danger_75: rgba(246, 78, 96, .75);
+  $rgba_danger_08: rgba(246, 78, 96, .08);
+  $rgba_danger_8: rgba(246, 78, 96, .8);
+
+  /* // Light*/
+  $rgba_light: rgba(210, 213, 219, .5);
+  $rgba_light_outline: rgba(243, 246, 249, .5);
+  $rgba_light_1: rgba(243, 246, 249, .5);
+  $rgba_light_12: rgba(243, 246, 249, .12);
+  $rgba_light_14: rgba(243, 246, 249, .14);
+  $rgba_light_16: rgba(243, 246, 249, .16);
+  $rgba_light_18: rgba(243, 246, 249, .18);
+  $rgba_light_2: rgba(243, 246, 249, .2);
+  $rgba_light_02: rgba(243, 246, 249, .02);
+  $rgba_light_22: rgba(243, 246, 249, .22);
+  $rgba_light_24: rgba(243, 246, 249, .24);
+  $rgba_light_25: rgba(24, 28, 50, .25);
+  $rgba_light_26: rgba(243, 246, 249, .26);
+  $rgba_light_28: rgba(243, 246, 249, .28);
+  $rgba_light_3: rgba(24, 28, 50, .3);
+  $rgba_light_32: rgba(24, 28, 50, .32);
+  $rgba_light_34: rgba(24, 28, 50, .34);
+  $rgba_light_38: rgba(24, 28, 50, .38);
+  $rgba_light_4: rgba(243, 246, 249, .4);
+  $rgba_light_04: rgba(243, 246, 249, .04);
+  $rgba_light_06: rgba(243, 246, 249, .06);
+  $rgba_light_6: rgba(243, 246, 249, .6);
+  $rgba_light_08: rgba(243, 246, 249, .08);
+  $rgba_light_8: rgba(243, 246, 249, .8);
+  $rgba_light_75: rgba(243, 246, 249, .75);
+
+  /* // Dark*/
+  $rgba_dark: rgba(59, 62, 81, .5);
+  $rgba_dark_outline: rgba(24, 28, 50, .5);
+  $rgba_dark_1: rgba(24, 28, 50, .1);
+  $rgba_dark_12: rgba(24, 28, 50, .12);
+  $rgba_dark_14: rgba(24, 28, 50, .14);
+  $rgba_dark_16: rgba(24, 28, 50, .16);
+  $rgba_dark_18: rgba(24, 28, 50, .18);
+  $rgba_dark_02: rgba(24, 28, 50, .02);
+  $rgba_dark_2: rgba(24, 28, 50, .2);
+  $rgba_dark_22: rgba(24, 28, 50, .22);
+  $rgba_dark_24: rgba(24, 28, 50, .24);
+  $rgba_dark_26: rgba(24, 28, 50, .26);
+  $rgba_dark_28: rgba(24, 28, 50, .28);
+  $rgba_dark_32: rgba(24, 28, 50, .32);
+  $rgba_dark_34: rgba(24, 28, 50, .34);
+  $rgba_dark_36: rgba(24, 28, 50, .36);
+  $rgba_dark_38: rgba(24, 28, 50, .38);
+  $rgba_dark_04: rgba(24, 28, 50, 04);
+  $rgba_dark_4: rgba(24, 28, 50, .4);
+  $rgba_dark_06: rgba(24, 28, 50, .06);
+  $rgba_dark_6: rgba(24, 28, 50, 62);
+  $rgba_dark_08: rgba(24, 28, 50, .08);
+  $rgba_dark_8: rgba(24, 28, 50, .8);
+  $rgba_dark_75: rgba(24, 28, 50, .75);
+
+  /* // White*/
+  $rgba_white: rgba(220, 221, 224, .5);
+  $rgba_white_outline: rgba(255, 255, 255, .5);
+  $rgba_white_1: rgba(255, 255, 255, .1);
+  $rgba_white_12: rgba(255, 255, 255, .12);
+  $rgba_white_14: rgba(255, 255, 255, .14);
+  $rgba_white_16: rgba(255, 255, 255, .16);
+  $rgba_white_18: rgba(255, 255, 255, .18);
+  $rgba_white_15: rgba(255, 255, 255, .15);
+  $rgba_white_02: rgba(255, 255, 255, .02);
+  $rgba_white_2: rgba(255, 255, 255, .2);
+  $rgba_white_22: rgba(255, 255, 255, .22);
+  $rgba_white_24: rgba(255, 255, 255, .24);
+  $rgba_white_26: rgba(255, 255, 255, .26);
+  $rgba_white_28: rgba(255, 255, 255, .28);
+  $rgba_white_3: rgba(255, 255, 255, .3);
+  $rgba_white_32: rgba(255, 255, 255, .32);
+  $rgba_white_34: rgba(255, 255, 255, .34);
+  $rgba_white_36: rgba(255, 255, 255, .36);
+  $rgba_white_38: rgba(255, 255, 255, .38);
+  $rgba_white_04: rgba(255, 255, 255, .04);
+  $rgba_white_4: rgba(255, 255, 255, .4);
+  $rgba_white_06: rgba(255, 255, 255, .06);
+  $rgba_white_6: rgba(255, 255, 255, .6);
+  $rgba_white_08: rgba(255, 255, 255, .08);
+  $rgba_white_8: rgba(255, 255, 255, .8);
+  $rgba_white_75: rgba(255, 255, 255, 0.75);
+  $rgba_white_075: rgba(255, 255, 255, 0.075);
+  $rgba_white_25: rgba(255, 255, 255, .25);
+  $rgba_white_05: rgba(255, 255, 255, .05);
+  $rgba_white_85: rgba(255, 255, 255, 0.85);
+  $rgba_white_7: rgba(255, 255, 255, .7);
+  $rgba_white_96: rgba(255, 255, 255, .96);
+  $rgba_white_20: rgba(64, 64, 64, .2);
+
+  /* // Social RGBA */
+  $facebook_1: rgba(59, 89, 152, .1);
+  $google-_1: rgba(221, 75, 57, .1);
+  $twitter_1: rgba(29, 161, 242, .1);
+  $instagram_1: rgba(225, 48, 108, .1);
+  $youtube_1: rgba(255, 0, 0, .1);
+  $linkedin_1: rgba(255, 0, 0, .1);
+  $skype_1: rgba(0, 175, 240, .1);
+
+  /* // black MODAL BACKDROP COLOR  */
+  $black_00: rgba(0, 0, 0, 0);
+  $black_1: rgba(0, 0, 0, 0.1);
+  $black_15: rgba(0, 0, 0, 0.15);
+  $black_075: rgba(0, 0, 0, 0.075);
+  $black_05: rgba(0, 0, 0, 0.05);
+  $black_055: rgba(0, 0, 0, 0.055);
+  $black_46: rgba(0, 0, 0, 0.46);
+  $black_2: rgba(0, 0, 0, 0.2);
+  $black_25: rgba(0, 0, 0, 0.25);
+  $black_3: rgba(0, 0, 0, .3);
+  $black_07: rgba(0, 0, 0, 0.7);
+  $black_5: rgba(0, 0, 0, .5);
+  $black_6: rgba(0, 0, 0, .6);
+  $black_06: rgba(0, 0, 0, .06);
+  $black_75: rgba(0, 0, 0, 0.75);
+  $black_9: rgba(0, 0, 0, 0.9);
+
+  /* Box Shadow RGBA */
+  $Shadow_15: rgba(82, 63, 105, .15);
+  $Shadow_08: rgba(82, 63, 105, .08);
+  $Shadow_1: rgba(82, 63, 105, .1);
+  $Shadow_2: rgba(69, 65, 78, .1);
+  $Shadow_05: rgba(82, 63, 105, .05);
+
+
+
+  /*======================== Plugins.Bundle.CSS Start ===========================*/
+  $dark_green:#3fb8af;
+  $dark_green_1:#308732;
+  $dark_green_2:#1cb841;
+  $dark_green_3:#00b300;
+  $dark_green_4:#5cb85c;
+  $dark_green_5:#008a00;
+  $dark_green_6:#3c763d;
+  $dark_green_7:#51a351;
+  $dark_green_8:#a5dc86;
+
+  $dark_blue:#006cfa;
+  $dark_blue_1:#00bfff;
+  $light_blue_10:#f0f6ff;
+  $light_blue_20:#d9edf7;
+  $light_blue_30:#85c5e5;
+  $light_blue_40:#afd9ee;
+  $light_blue_50:#298fc2;
+  $light_blue_60:#52addb;
+  $light_blue_70:#91cbe8;
+  $light_blue_80:#92bce0;
+  $light_blue_90:#b9d4ec;
+  $light_blue_11:#5bc0de;
+  $light_blue_12:#08c;
+  $light_blue_13:#ebf4f8;
+  $light_blue_14:#007bff;
+  $light_blue_15:#4b88a6;
+  $light_blue_17:#73a6c0;
+  $light_blue_18:#a8c8d8;
+  $light_blue_19:#66afe9;
+  $light_blue_21:#87cefa;
+  $light_blue_22:#b4dbed;
+  $light_blue_23:#9de0f6;
+  $light_blue_24:#c9dae1;
+  $light_blue_25:#87adbd;
+  $light_blue_26:#add8e6;
+
+  $navy_blue:#286090;
+  $navy_blue_1:#204d74;
+  $navy_blue_2:#122b40;
+  $navy_blue_3:#337ab7;
+  $navy_blue_4:#2e6da4;
+  $navy_blue_5:#0056b3;
+  $navy_blue_6:#06c;
+  $navy_blue_7:#3595f6;
+  $navy_blue_8:#098ddf;
+  $navy_blue_9:#31708f;
+  $navy_blue_10:#2f96b4;
+  $navy_blue_11:#008ffb;
+  $navy_blue_12:#2778c4;
+  $navy_blue_13:#3fc3ee;
+
+  $orange: #f90;
+  $orange_1: #f89406;
+  $purple: #93f;
+
+  $yellow:#f7ca77;
+  $yellow_10:#f1a417;
+  $yellow_20:#f4b747;
+  $yellow_30:#bf800c;
+  $yellow_40:#815608;
+  $yellow_50:#f2aa25;
+  $yellow_60:#f0ad4e;
+  $yellow_70:#ff0;
+  $yellow_80:#facea8;
+  $yellow_90:#f8bb86;
+
+  $light_gray_10:#dedede;
+  $light_gray_20:#d3d3d3;
+  $light_gray_30:#f0f0f0;
+  $light_gray_40:#d9d9d9;
+  $light_gray_50:#ebebeb;
+  $light_gray_60:#b8b8b8;
+  $light_gray_70:#d5d5d5;
+  $light_gray_80:#7c7c7c;
+  $light_gray_90:#9d9d9d;
+  $light_gray_11:#c3c3c3;
+  $light_gray_12:#e4eef3;
+  $light_gray_13:#9dc1d3;
+  $light_gray_14:#c1d7e3;
+  $light_gray_15:#e4e4e4;
+  $light_gray_17:#cbcfd5;
+  $light_gray_18:#e9e6e6;
+  $light_gray_19:#e9ecef;
+
+  $dark_gray_10:#666;
+  $dark_gray_20:#444;
+  $dark_gray_30:#555;
+  $dark_gray_40:#5e5e5e;
+  $dark_gray_50:#4c4c4c;
+  $dark_gray_60:#6c757d;
+  $dark_gray_70:#7685a2;
+  $dark_gray_80:#c3c7cd;
+  $dark_gray_90:#161616;
+  $dark_gray_11:#48536a;
+  $dark_gray_12:#23241f;
+  $dark_gray_13:#bebebe;
+  $dark_gray_14:#b3b3b3;
+  $dark_gray_15:#030303;
+  $dark_gray_16:#373d3f;
+  $dark_gray_17:#90a4ae;
+  $dark_gray_18:#6e8192;
+  $dark_gray_19:#595959;
+  $dark_gray_21:#757575;
+  $dark_gray_22:#545454;
+
+  $light_white_10:#fafafa;
+  $light_white_20:#f5f5f5;
+  $light_white_30:#e3e3e3;
+  $light_white_40:#f7f7f7;
+  $light_white_50:#dee4ec;
+  $light_white_60:#f8f8f2;
+  $light_white_70:#E5E5E5;
+  $light_white_80:#D3E2E2;
+  $light_white_90:#e2e2e2;
+  $light_white_11:#dff0d8;
+  $light_white_12:#fcf8e3;
+  $light_white_13:#efefef;
+  $light_white_14:#eceff1;
+  $light_white_15:#f3f4f5;
+
+  $pink:#ee22fa;
+  $pink_1:#a804b2;
+  $red:#e60000;
+  $light_red:#f2dede;
+
+  $brown:#D39494;
+  $brown_1:#c77777;
+  $brown_2:#8a6d3b;
+
+  $error:#ca3c3c;
+  $error_2:#9f3a38;
+  $error_3:#ff4136;
+  $error_4:#c00;
+  $error_5:#b94a48;
+  $error_6:#d9534f;
+  $error_7:#be2626;
+  $error_8:#a92222;
+  $error_9:#a94442;
+  $error_10:#bd362f;
+  $error_11:#d14529;
+  $error_12:#f27474;
+
+  $rgba_light-5:rgba(49, 119, 209, 0.5);
+  $rgba_light-9:rgba(255, 255, 255, .9);
+  $rgba_blue_3:rgba(0, 0, 255, .3);
+  $rgba_navy_blue_1:rgba(66, 139, 202, .5);
+  $rgba_navy_blue_2:rgb(53, 149, 246);
+  $rgba_navy_blue_3:rgba(102, 175, 233, .6);
+  $rgba_navy_blue_7: rgba(8, 157, 227, .7);
+  $rgba_brown_5:rgba(211, 148, 148, .5);
+  $rgba_brown_3:rgba(211, 148, 148, 0.3);
+  $rgba_dark_gray:rgba(100, 150, 200, .5);
+  $rgba_dark_gray_2:rgba(204, 204, 204, .2);
+  $rgba_dark_gray_3:rgba(165, 220, 134, .3);
+  $rgba_light_gray_8:rgba(200, 200, 200, .8);
+
+  /*======================== Plugins.Bundle.CSS End ===========================*/
+  /*======================== Login Svg Image Start ===========================*/
+  $login_white: #F1F1F1;
+  $login_primary: #69A54B;
+  $login_light_primary: #1BC5BD;
+  $login_light_primary_10: #36BA95;
+  $login_light_primary_20: #3CB78C;
+  $login_light_primary_30: #29BFA8;
+  $login_light_primary_40: #1EC4B8;
+  $login_light_primary_50: #30BEBB;
+  $login_light_primary_60: #5FADC3;
+  $login_primary_10: #A7A7A7;
+  $login_primary_20: #959F92;
+  $login_primary_30: #6B8D63;
+  $login_primary_40: #57AC65;
+  $login_primary_50: #2CBEA4;
+  $login_primary_60: #5BAB60;
+  $login_primary_70: #5DAA5D;
+  $login_primary_80: #4EB073;
+  $login_primary_100: #303B27;
+
+  $login_danger_10: #FB8CA4;
+
+  $login_info: #8950FC;
+  $login_info_10: #9A98CD;
+  $login_info_20: #889ECB;
+  $login_info_30: #7565F1;
+  $login_info_40: #BD6AAA;
+  $login_info_50: #874CAF;
+  $login_info_60: #7241B1;
+  $login_info_70: #6840B5;
+  $login_info_80: #4F45A7;
+  $login_info_90: #4F2863;
+  $login_info_100: #4F3076;
+
+  $login_blue: #439AD4;
+  $login_blue_10: #59AFC5;
+  $login_blue_20: #4F4EBC;
+  $login_blue_30: #8C9DCB;
+
+  $login_black: #181C1F;
+  $login_black_10: #1B2020;
+  $login_black_20: #232A23;
+  $login_black_30: #6C61D8;
+  /*======================== Login Svg Image End ===========================*/
+
+  $breakpoint_xs: 0;
+  $breakpoint_sm: 576px;
+  $breakpoint_md: 768px;
+  $breakpoint_lg: 992px;
+  $breakpoint_xl: 1200px;
+  $breakpoint_xxl: 1400px;
+  $font_family_sans_serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  $font_family_default:  Poppins, Helvetica, "sans-serif";
+  $font-family-monospace:  Poppins, Helvetica, "sans-serif";
+

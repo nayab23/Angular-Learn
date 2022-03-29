@@ -1,6 +1,4 @@
-body {
-    background-color: var(--body-bg) !important;
-}
+/* 
 .login .input {
     background: none;
     border-width: 1px;
@@ -19,7 +17,6 @@ body {
   }
 .login-bg{
     height:100vh;
-    /* // width:100%; */
 }
 .login-bg img{
     margin-right: 3rem;
@@ -55,4 +52,4 @@ body {
         padding-bottom: 40px;
         width: 90% !important;
     }
-}
+} */

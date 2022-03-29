@@ -1,0 +1,65 @@
+// ************************
+// Screen sizes and media queries
+// ************************
+
+// $screen_sm: 768;
+// $screen_md: 992;
+// $screen_lg: 1200;
+$screen_xs: 0;
+$screen_sm: 576px;
+$screen_md: 768px;
+$screen_lg: 992px;
+$screen_xl: 1200px;
+$screen_xxl: 1400px;
+
+/**
+Insert a media query on the preset screen sizes
+
+Usage:
+  .select {
+    width: 100%;
+    @include mq(sm) {
+      width: 50%;
+    }
+  }
+
+  Breakpoints defined are:
+    xs: less than screen_sm
+    sm: screen_sm to screen_md
+    md: screen_md to screen_lg
+    lg: greater than screen_lg
+*/
+// @mixin mq($breakpoints...) {
+//   $query: "";
+
+//   @each $breakpoint in $breakpoints {
+//     $op: "";
+//     $condition: "";
+
+//     @if ($query !="") {
+//       $op: " , ";
+//     }
+
+//     @if $breakpoint==xs {
+//       $condition: '(max-width: #{$screen_sm - 1}px)';
+//     }
+
+//     @else if $breakpoint==sm {
+//       $condition: '(min-width: #{$screen_sm}px) and (max-width: #{$screen_md - 1}px)';
+//     }
+
+//     @else if $breakpoint==md {
+//       $condition: '(min-width: #{$screen_md}px) and (max-width: #{$screen_lg - 1}px)';
+//     }
+
+//     @else if $breakpoint==lg {
+//       $condition: '(min-width: #{$screen_lg}px)';
+//     }
+
+//     $query: $query+$op+$condition;
+//   }
+
+//   @media #{$query} {
+//     @content;
+//   }
+// }
