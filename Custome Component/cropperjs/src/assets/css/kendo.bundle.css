@@ -1,0 +1,315 @@
+/*================================== Aside Mega Menu ================================= */
+/*================================== Aside Mega Menu ================================= */
+.mega-menu-aside-navbar .k-panelbar {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mega-menu-aside-navbar .k-link {
+  padding: 12px 25px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mega-menu-aside-navbar .k-link.k-state-selected {
+  background-color: var(--light) !important;
+}
+
+.mega-menu-aside-navbar .k-link.k-state-selected .k-panelbar-item-text,
+.mega-menu-aside-navbar .k-link.k-state-selected .k-icon {
+  color: var(--primary) !important
+}
+
+.mega-menu-aside-navbar.k-panelbar>.k-item>.k-link .k-icon,
+.k-panelbar>.k-item>.k-link .k-panelbar-item-icon,
+.k-panelbar>.k-panelbar-header>.k-link .k-icon,
+.k-panelbar>.k-panelbar-header>.k-link .k-panelbar-item-icon {
+  color: var(--gray_30);
+  font-size: 1.5rem;
+}
+
+.mega-menu-aside-navbar .k-icon.k-i-arrow-chevron-down,
+.mega-menu-aside-navbar .k-i-arrow-chevron-up {
+  font-size: 1rem !important;
+}
+
+.mega-menu-aside-navbar .k-panelbar-item-text {
+  margin-left: 15px !important;
+  color: var(--dark) !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  text-transform: initial !important;
+}
+
+.k-panelbar>.k-item,
+.k-panelbar>.k-panelbar-header {
+  border: none !important;
+}
+
+/* span {
+ 
+} */
+
+
+/* **************** SUB Menu ************** */
+
+.mega-menu-aside-navbar-submenu .k-link {
+  padding-left: 40px !important;
+}
+
+.mega-menu-aside-navbar-submenu .k-panelbar-item-text {
+  margin-left: 7px !important;
+}
+
+.mega-menu-aside-navbar-submenu .k-icon {
+  font-size: 0 !important;
+  color: var(--gray_30) !important;
+  width: 5px !important;
+  height: 1.3px !important;
+  background-color: var(--gray_30) !important;
+}
+
+/*================================== Header ================================= */
+/*================================== Header ================================= */
+.k-appbar-light {
+  background-color: transparent;
+}
+
+.k-appbar {
+  padding: 0;
+  overflow: none;
+}
+
+/*================================== Animated Line Tab ================================= */
+/*================================== Animated Line Tab ================================= */
+.line-Tab .k-tabstrip>.k-content {
+  border: 0 !important;
+}
+
+.line-Tab.k-tabstrip-top>.k-tabstrip-items-wrapper .k-item.k-state-active>.k-link {
+  border-bottom: 3px solid var(--primary) !important;
+}
+
+.line-Tab.k-tabstrip-top>.k-tabstrip-items-wrapper .k-item>.k-link {
+  padding: 0.85rem 0 !important;
+  margin: 0 1rem !important;
+}
+
+.line-Tab.k-tabstrip-top>.k-tabstrip-items-wrapper .k-item {
+  border-radius: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.line-Tab .k-tabstrip-items-wrapper .k-item:focus,
+.line-Tab .k-tabstrip-items-wrapper .k-item.k-state-focused {
+  box-shadow: none !important;
+}
+
+.line-Tab .k-tabstrip-items .k-item {
+  border: none !important;
+}
+
+.line-Tab .k-tabstrip-items-wrapper .k-item {
+  color: var(--gray) !important;
+}
+
+.line-Tab .k-tabstrip-items-wrapper .k-item.k-state-active {
+  border-color: transparent !important;
+  color: var(--primary);
+}
+
+.line-Tab .k-tabstrip-items {
+  padding: 0 2.5rem;
+}
+
+/*================================= Select Option ========================= */
+/*================================= Select Option ========================= */
+select.form-control::-ms-expand {
+  /* margin-right: 20px; */
+}
+
+select.form-control option:hover {
+  background: var(--gray-60);
+  color: var(--gray-dark);
+  padding: 0.65rem 3rem 0.65rem 1rem;
+}
+
+/*================================= drawer overlay ========================= */
+/*================================= drawer overlay ========================= */
+.k-input-inner {
+  padding: 0 !important;
+}
+
+.k-overlay {
+  background: var(--black_1) !important;
+  opacity: 1 !important;
+}
+
+/*================================= Custom Dropdown Menu ========================= */
+/*================================= Custom Dropdown Menu ========================= */
+.custom-dropdown-menu .k-i-arrow-60-down {
+  display: none !important;
+}
+
+.custom-dropdown-menu.btn-light-info .k-i-more-vertical {
+  margin-left: 5px;
+  color: var(--info);
+}
+
+.custom-dropdown-menu.btn-light-info .k-item {
+  box-shadow: none !important;
+}
+
+.custom-dropdown-menu.btn-light-info:hover .k-i-more-vertical {
+  color: var(--white);
+}
+
+.custom-dropdown-menu.btn-light-info .k-state-active .k-i-more-vertical {
+  background: var(--info);
+  height: 25px;
+  border-radius: 12px;
+  width: 14px;
+}
+
+.custom-dropdown-menu.btn-light-info .k-state-active .k-i-more-vertical {
+  color: var(--white);
+}
+
+.k-menu-popup {
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: var(--gray-dark);
+  text-align: left;
+  list-style: none;
+  background-color: var(--white);
+  background-clip: padding-box;
+  border: 0 solid var(--black-15);
+  border-radius: 0.85rem;
+  -webkit-box-shadow: 0 0 50px 0 var(--Shadow-15);
+  box-shadow: 0 0 50px 0 var(--Shadow-15);
+}
+.custom-dropdown-menu .dropdown-item {
+  background: transparent;
+}
+
+.custom-dropdown-menu .dropdown-item:hover {
+  background: transparent;
+}
+.k-menu-popup .k-menu-link button{
+  background: transparent !important;
+    width: 100%;
+    padding: 0.2rem 0;
+    clear: both;
+    font-weight: 400;
+    color: var(--dark);
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+.k-menu-popup .k-menu-link button .k-button-icon{
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.k-menu-popup .k-menu-link button .k-button-icon.k-i-trash{
+  color: var(--danger);
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.k-menu-popup .k-menu-link button .k-button-text{
+  color: var(--dark);
+  margin-left:.5rem !important;
+}
+.k-menu-group .k-item > .k-link:active{
+  background: var(--primary);
+  color:var(--white);
+}
+.k-menu-group .k-item > .k-link:active button .k-button-icon{
+  color:var(--white)
+}
+.k-menu-group .k-item > .k-link:active button .k-button-text{
+  color:var(--white)
+}
+/*================================= Confirmation modal ========================= */
+/*================================= Confirmation modal ========================= */
+.confirmation-modal .k-dialog {
+  border-radius: 0.85rem !important;
+}
+
+.confirmation-modal .k-dialog-content {
+  padding: 0 !important;
+}
+
+.confirmation-modal .k-dialog-titlebar {
+  display: none !important;
+}
+
+/*================================= Header modal ========================= */
+/*================================= Header modal ========================= */
+.header-modal .k-dialog{
+  border-radius: 0.85rem;
+}
+.header-modal .k-dialog-titlebar{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.5rem 1.75rem;
+  border-bottom: 1px solid var(--gray_10);
+  border-top-left-radius: 0.85rem;
+  border-top-right-radius: 0.85rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: transparent !important;
+}
+.header-modal .k-dialog-titlebar .k-dialog-title {
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: var(--dark);
+  margin-bottom: 0;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+}
+.header-modal .k-dialog-titlebar .k-dialog-close {
+  outline: 0 !important;
+    color: var(--gray_30);
+    -webkit-transition: color .15s ease, background-color .15s ease, border-color .15s ease, -webkit-box-shadow .15s ease;
+    transition: color .15s ease, background-color .15s ease, border-color .15s ease, -webkit-box-shadow .15s ease;
+    transition: color .15s ease, background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+    transition: color .15s ease, background-color .15s ease, border-color .15s ease, box-shadow .15s ease, -webkit-box-shadow .15s ease;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--black);
+    text-shadow: 0 1px 0 var(--white);
+    opacity: .5;
+    background: transparent !important;
+}
+.header-modal .k-dialog-titlebar .k-dialog-close:hover {
+  -webkit-transition: color .15s ease, background-color .15s ease, border-color .15s ease, -webkit-box-shadow .15s ease;
+  transition: color .15s ease, background-color .15s ease, border-color .15s ease, -webkit-box-shadow .15s ease;
+  transition: color .15s ease, background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+  transition: color .15s ease, background-color .15s ease, border-color .15s ease, box-shadow .15s ease, -webkit-box-shadow .15s ease;
+  color: var(--primary);
+  opacity: 1;
+  background: transparent !important;
+}
+.header-modal .k-button:hover::before, .k-button.k-hover::before {
+  opacity: 0;
+}
+.header-modal .k-content {
+  padding: 0 !important;
+}

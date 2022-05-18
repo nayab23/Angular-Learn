@@ -8,7 +8,7 @@ import { VARIABLE } from "./variable.config";
 export class ThemeService {
   constructor(@Inject(DOCUMENT) private document: Document) {}
 
-  setTheme(name = "default") {
+  setTheme(name) {
     const theme = VARIABLE[name];
     Object.keys(theme).forEach((key) => {
       this.document.documentElement.style.setProperty(`--${key}`, theme[key]);

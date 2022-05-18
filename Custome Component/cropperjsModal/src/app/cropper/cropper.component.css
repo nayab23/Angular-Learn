@@ -1,0 +1,78 @@
+.cropper__header {
+  width: 100;
+  height: 94px;
+  text-align: center;
+}
+
+.cropper__title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #4e4e56;
+}
+
+.cropper__image {
+  height: 210px;
+  width: 210px;
+  max-width: 100%;
+}
+
+.cropper__imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 32px;
+  background-color: #f7f7fa;
+}
+
+.cropper__zoomSlider {
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.cropper__actions {
+  width: 100%;
+  margin-top: 20px;
+  height: 105px;
+  text-align: center;
+}
+
+.cropper__actions * {
+  margin: 0 5px;
+}
+
+.cropper__button {
+  width: 140px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  background-color: #6872f4;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.cropper__button:active {
+  border: none;
+  outline: none;
+}
+
+.cropper__button:hover {
+  border: none;
+  outline: none;
+}
+
+.cropper__button--cancel {
+  color: #6872f4;
+  background-color: #f7f7fa;
+}
+/*# sourceMappingURL=cropper.component.css.map */

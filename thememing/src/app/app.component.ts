@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ThemeService } from "./services/theme.service";
+import { ThemeService } from './services/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +8,9 @@ import { ThemeService } from "./services/theme.service";
 })
 export class AppComponent {
   title = 'thememing';
-  constructor(private themeService: ThemeService) {}
-
+  constructor(private themeService: ThemeService) {
+    this.themeService.setTheme('purple');
+  }
   changeTheme(name) {
     this.themeService.setTheme(name);
   }

@@ -1,0 +1,28 @@
+
+<div class="position-relative w-170px h-160px">
+<div class="cropper">
+  <div class="cropper__imageContainer">
+    <div *ngIf="!processing; then cropper"></div>
+    <ng-template #cropper>
+      <div class="cropper__image">
+        <img #image [src]="url ? url : imgUrl" (load)="imageLoaded($event)" (error)="imageLoadError($event)" />
+      </div>
+      <div class="cropper__zoomSlider">
+        <app-range-slider [value]="zoomValue" (changed)="setZoom($event)"></app-range-slider>
+      </div>
+    </ng-template>
+  </div>
+  <div class="cropper__actions">
+    <button (click)="close()" class="cropper__button cropper__button--cancel">Cancel</button>
+    <button (click)="exportCanvas()" class="cropper__button">Apply</button>
+  </div>
+</div>
+<button type="button" class="btn btn-sm btn-danger position-absolute p-0 h-30px w-30px" style="top: 2px;right: -8px;border-radius: 50%">
+  <input type="file" id="edituserimage" (change)="editFileChangeEvent($event)" name="edituserimage"
+    accept=".png, .jpg, .jpeg" style="display:none !important;" />
+  <label for="edituserimage" class="p-0 m-0">
+    <i class="fa fa-pencil-alt m-0 p-0"></i>
+  </label>
+  <div class="ripple-wrapper"></div>
+</button>
+</div>

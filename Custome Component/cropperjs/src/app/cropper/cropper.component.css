@@ -1,0 +1,71 @@
+.cropper__header {
+  width: 100;
+  height: 94px;
+  text-align: center;
+}
+
+.cropper__title {
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  color: #4e4e56;
+}
+
+.cropper__image {
+  height: 160px;
+  width: 160px;
+  max-width: 100%;
+}
+
+.cropper__imageContainer {
+  padding-top: 11px;
+  background-color: #f7f7fa;
+}
+
+.cropper__zoomSlider {
+  width: 160px;
+  background-color: var(--rgba_primary_4);
+  position: absolute;
+  margin-top: -23px;
+  z-index: 999;
+  height: 23px;
+}
+
+.cropper__actions {
+  width: 100%;
+  margin-top: 20px;
+  height: 105px;
+}
+
+.cropper__actions * {
+  margin: 0 5px;
+}
+
+.cropper__button {
+  width: 140px;
+  height: 40px;
+  color: white;
+  border-radius: 20px;
+  background-color: #6872f4;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+.cropper__button:active {
+  border: none;
+  outline: none;
+}
+
+.cropper__button:hover {
+  border: none;
+  outline: none;
+}
+
+.cropper__button--cancel {
+  color: #6872f4;
+  background-color: #f7f7fa;
+}
+
+/*# sourceMappingURL=cropper.component.css.map */

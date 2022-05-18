@@ -1,0 +1,17 @@
+
+<!-- ******************Upload HTML**************** -->
+<div class="col-md-4 col-12 order-md-1 order-0 mb-5">
+    <label class="form-label" for="Image">Profile Image</label>
+    <small> Allowed file types: png, jpg, jpeg.</small>
+    <div class="position-absolute" [ngClass]="ToggleCroppie ? 'd-block ': 'd-none'" style="transform: translate(75%, -4%);">
+      <app-cropper (cropped)="showCroppResult($event)" #change ></app-cropper>
+    </div>
+    <div  class="pimgBox" [ngClass]="ToggleCroppie ? 'd-none' : 'd-block'">
+      <img  [src]="src ? src : 'https://www.w3schools.com/howto/img_avatar2.png'" />
+        <input type="file" id="uploaduserimage" (change)="change.fileChangeEvent($event); toggleCroppie()" name="uploaduserimage"
+        accept=".png, .jpg, .jpeg" style="display:none !important;" />
+        <label for="uploaduserimage" class="chngpotxt mb-0">Change Photo</label>
+    </div>
+  </div>
+  <!-- ******************Upload HTML**************** -->
+  

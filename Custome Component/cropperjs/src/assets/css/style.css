@@ -1,0 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700';
+@import 'variable-default.css';
+@import 'plugins.bundle.css';
+@import 'kendo.bundle.css';
+@import 'style.bundle.css';
+@import 'style.child.bundle.css';
+@import 'crop-tel.min.css';
+@import 'pages/login/login-4.css';
+@import 'pages/login/login-3.css';
+
+
