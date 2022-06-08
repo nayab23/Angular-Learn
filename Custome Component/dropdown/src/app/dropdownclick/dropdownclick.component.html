@@ -1,0 +1,221 @@
+
+<!-- <button #toggleButton (click)="toggleMenu()" class="button"> Toggle Menu</button>
+
+<div class="menu" #menu *ngIf="isMenuOpen">
+I'm the menu. Click outside to close me
+</div> -->
+
+
+
+
+
+
+
+<div class="container-fluid mt-18">
+    <script>
+      var liMenuId = 'li_Groups';
+  
+    </script>
+    <div class="d-flex align-items-center flex-wrap mt-sm-0 mt-5 mb-5">
+      <ul class="breadcrumb breadcrumb-transparent font-weight-bold m-0 p-0">
+        <li class="breadcrumb-item align-items-center">
+          <a href="/" class="text-muted text-hover-success text-capitalize"><i class="fa fa-home mr-2"></i>Home</a>
+        </li>
+        <li class="breadcrumb-item align-items-center">
+          <a href="/AdminPortal/Dashboard/Admin-Management" class="text-muted text-hover-success text-capitalize"><i
+              class="la socicon-whatsapp mr-2"></i>Admin Management</a>
+        </li>
+        <li class="breadcrumb-item align-items-center">
+          <span id="page_tile_text" class="text-muted text-hover-success text-capitalize"><i
+              class="fa fa-user mr-2"></i>Portal User Groups</span>
+        </li>
+      </ul>
+    </div>
+    <div class="card card-custom mb-3">
+      <div class="card-header">
+        <div class="card-title m-0" id="page_title"><span class="card-icon"><i
+              class="fa fa-user mr-2 text-success"></i></span>
+          <h3 class="card-label">Portal User Groups</h3>
+        </div>
+        <div class="card-toolbar m-0">
+          <button type="button" class="Create btn btn-primary btn-fixed-height font-weight-bold px-2 px-lg-5"><i
+              class="fa fa-plus"></i><span class="d-none d-md-inline">Add New</span></button>
+        </div>
+      </div>
+    </div>
+    <div id="RecordGrid">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card card-custom gutter-b">
+            <div class="card-body p-5">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center mr-3">
+                      <h5 class="text-dark-75 text-hover-primary font-size-h4 font-weight-bold mr-3 mb-0">Development</h5>
+                      <i class="fa fa-check-circle text-success" title="Enabled"></i>
+                    </div>
+                    <div class="my-lg-0 my-3">
+                      
+                      <div class="dropleft dropdown dropdown-inline">
+                        <button type="button" title="Actions" class="btn btn-info btn-icon moreactions" [ngClass]="dropdownMenuShow ? 'd-block': 'd-none'" (click)='dropdownMenu(1)' 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="ki ki-bold-more-ver"></i>
+                        </button>
+                        <button type="button" title="Actions" class="btn btn-light-info btn-icon moreactions" [ngClass]="dropdownMenuShow ? 'd-none': 'd-block'" (click)='dropdownMenuFocusOut(1)' 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="ki ki-bold-more-ver"></i>
+                        </button>
+                        <div class="dropdown-menu" [ngClass]="dropdownMenuShow ? 'show': 'hide'" *ngIf="dropdownMenuindex == 1" style="" >
+                          <div title="Edit" data-id="5d26cf57-b858-41ba-a9f8-08d92c1c35d8"
+                            class="text-left dropdown-item Edit btn-hover-success cursor-pointer">
+                            <i class="fa fa-edit text-success mr-2"></i>Edit
+                          </div>
+                          <div title="Delete" data-id="5d26cf57-b858-41ba-a9f8-08d92c1c35d8"
+                            class="text-left dropdown-item Delete btn-hover-danger cursor-pointer">
+                            <i class="fa fa-trash text-danger mr-2"></i>Delete
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-2">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-6 font-weight-bold">Users:</div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <span class="label label-inline label-light-danger text-dark w-100" style="font-size:12px">3</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card card-custom gutter-b">
+            <div class="card-body p-5">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center mr-3">
+                      <h5 class="text-dark-75 text-hover-primary font-size-h4 font-weight-bold mr-3 mb-0">Facility</h5>
+                      <i class="fa fa-check-circle text-success" title="Enabled"></i>
+                    </div>
+                    <div class="my-lg-0 my-3">
+                      
+                      <div class="dropleft dropdown dropdown-inline">
+                        <button type="button" title="Actions" class="btn btn-light-info btn-icon moreactions" (click)='dropdownMenu(2)' 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="ki ki-bold-more-ver"></i>
+                        </button>
+                        <div class="dropdown-menu" [ngClass]="dropdownMenuShow ? 'show': 'hide'" *ngIf="dropdownMenuindex == 2">
+                          <div title="Edit" data-id="04ff3133-85fc-4a63-6d8a-08d9efa4fbbf"
+                            class="text-left dropdown-item Edit btn-hover-success cursor-pointer">
+                            <i class="fa fa-edit text-success mr-2"></i>Edit
+                          </div>
+                          <div title="Delete" data-id="04ff3133-85fc-4a63-6d8a-08d9efa4fbbf"
+                            class="text-left dropdown-item Delete btn-hover-danger cursor-pointer">
+                            <i class="fa fa-trash text-danger mr-2"></i>Delete
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-2">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-6 font-weight-bold">Users:</div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <span class="label label-inline label-light-danger text-dark w-100" style="font-size:12px">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card card-custom gutter-b">
+            <div class="card-body p-5">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center mr-3">
+                      <h5 class="text-dark-75 text-hover-primary font-size-h4 font-weight-bold mr-3 mb-0">Physician</h5>
+                      <i class="fa fa-check-circle text-success" title="Enabled"></i>
+                    </div>
+                    <div class="my-lg-0 my-3">
+                      
+                      <div class="dropleft dropdown dropdown-inline">
+                        <button type="button" title="Actions" class="btn btn-light-info btn-icon moreactions" (click)='dropdownMenu(3)' 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="ki ki-bold-more-ver"></i>
+                        </button>
+                        <div class="dropdown-menu" [ngClass]="dropdownMenuShow ? 'show': 'hide'" *ngIf="dropdownMenuindex == 3">
+                          <div title="Edit" data-id="e96d2fb8-6c73-49cf-2f0b-08d9df23b2fc"
+                            class="text-left dropdown-item Edit btn-hover-success cursor-pointer">
+                            <i class="fa fa-edit text-success mr-2"></i>Edit
+                          </div>
+                          <div title="Delete" data-id="e96d2fb8-6c73-49cf-2f0b-08d9df23b2fc"
+                            class="text-left dropdown-item Delete btn-hover-danger cursor-pointer">
+                            <i class="fa fa-trash text-danger mr-2"></i>Delete
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-2">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-6 font-weight-bold">Users:</div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <span class="label label-inline label-light-danger text-dark w-100" style="font-size:12px">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+          <div class="card card-custom gutter-b">
+            <div class="card-body p-5">
+              <div class="d-flex">
+                <div class="flex-grow-1">
+                  <div class="d-flex justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center mr-3">
+                      <h5 class="text-dark-75 text-hover-primary font-size-h4 font-weight-bold mr-3 mb-0">Sales</h5>
+                      <i class="fa fa-check-circle text-success" title="Enabled"></i>
+                    </div>
+                    <div class="my-lg-0 my-3">
+                      
+                      <div class="dropleft dropdown dropdown-inline">
+                        <button type="button" title="Actions" class="btn btn-light-info btn-icon moreactions" (click)='dropdownMenu(4)' 
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="ki ki-bold-more-ver"></i>
+                        </button>
+                        <div class="dropdown-menu" [ngClass]="dropdownMenuShow ? 'show': 'hide'" *ngIf="dropdownMenuindex == 4">
+                          <div title="Edit" data-id="301ee390-0fa5-4846-2f0c-08d9df23b2fc"
+                            class="text-left dropdown-item Edit btn-hover-success cursor-pointer">
+                            <i class="fa fa-edit text-success mr-2"></i>Edit
+                          </div>
+                          <div title="Delete" data-id="301ee390-0fa5-4846-2f0c-08d9df23b2fc"
+                            class="text-left dropdown-item Delete btn-hover-danger cursor-pointer">
+                            <i class="fa fa-trash text-danger mr-2"></i>Delete
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row align-items-center mt-2">
+                    <div class="col-lg-6 col-md-6 col-sm-4 col-6 font-weight-bold">Users:</div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-6 text-center">
+                      <span class="label label-inline label-light-danger text-dark w-100" style="font-size:12px">0</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  </div>
+  
